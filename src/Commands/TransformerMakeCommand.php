@@ -6,8 +6,6 @@ use DB;
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Str;
-use PhpParser\Error;
 use Symfony\Component\Console\Input\InputOption;
 
 class TransformerMakeCommand extends GeneratorCommand
