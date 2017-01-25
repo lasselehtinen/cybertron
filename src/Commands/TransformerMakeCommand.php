@@ -54,7 +54,8 @@ class TransformerMakeCommand extends GeneratorCommand
      * @return string
      */
     protected function getStub()
-    {}
+    {
+    }
 
     /**
      * Build the class with the given name.
