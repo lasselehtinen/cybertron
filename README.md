@@ -1,5 +1,12 @@
 # Fractal Transformer generator for Laravel
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lasselehtinen/cybertron.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/cybertron)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://travis-ci.org/lasselehtinen/cybertron.svg?branch=master)](https://travis-ci.org/lasselehtinen/cybertron)
+[![Quality Score](https://img.shields.io/scrutinizer/g/lasselehtinen/cybertron.svg?style=flat-square)](https://scrutinizer-ci.com/g/lasselehtinen/cybertron)
+[![StyleCI](https://styleci.io/repos/43743138/shield?branch=master)](https://styleci.io/repos/43743138)
+[![Total Downloads](https://img.shields.io/packagist/dt/lasselehtinen/cybertron.svg?style=flat-square)](https://packagist.org/packages/lasselehtinen/cybertron)
+
 The package provides an easy way to generate [Fractal Transformers](http://fractal.thephpleague.com/transformers/)
 for your Laravel applications. The package automatically scans the models Eloquent relationships and attributes and generates the Transformer boiler plate. It also automatically adds casting for integer and boolean fields. 
 
