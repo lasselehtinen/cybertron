@@ -86,7 +86,7 @@ class TestTransformer extends Fractal\TransformerAbstract
 
 You can pull in the package via composer:
 ``` bash
-$ composer require lasselehtinen/cybertron
+$ composer require lasselehtinen/cybertron --dev
 ```
 
 Since you only need the generator for development, don't add the generator the providers array in `config/app.php`. Instead add it to `app/Providers/AppServiceProvider.php`as shown below:
