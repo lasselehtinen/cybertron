@@ -111,7 +111,7 @@ php artisan make:transformer PostTransformer --model=\\App\\Post
 Similar way as in Laravels built-in generators, you can provide a namespace for the generated Transformer.
 
 ```bash
-php artisan make:transformer PostTransformer --model=\\App\\Post
+php artisan make:transformer \\App\\Api\\V1\\Transformers\\PostTransformer --model=\\App\\Post
 ```
 
 ## License
