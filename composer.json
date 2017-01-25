@@ -1,0 +1,29 @@
+{
+    "name": "lasselehtinen/cybertron",
+    "description": "Fractal Transformer generator for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lasse Lehtinen",
+            "email": "lasse.lehtinen@iki.fi"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+    "psr-4": {
+      "lasselehtinen\\Cybertron\\": "src/"
+    }
+  },
+    "autoload-dev": {
+    "psr-4": {
+      "lasselehtinen\\Cybertron\\Tests\\": "tests/"
+    }
+  },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "orchestra/testbench": "~3.0"
+    }
+}
