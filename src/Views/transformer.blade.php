@@ -21,8 +21,8 @@ class {{ $class }} extends Fractal\TransformerAbstract
     /**
      * Transform {{ $name }}
      *
-     * @param  {{ $name }} ${{ camel_case($name) }}
-     * @return array
+     * {{ '@param' }}   {{ $name }} ${{ camel_case($name) }}
+     * {{ '@return' }}  array
      */
     public function transform({{ $name }} ${{ camel_case($name) }})
     {
@@ -37,8 +37,8 @@ class {{ $class }} extends Fractal\TransformerAbstract
     /**
      * Include {{ ucfirst($relationship['method']) }}
      *
-     * @param {{ $name }} ${{ camel_case($name) }}
-     * @return \League\Fractal\Resource\{{ ucfirst($relationship['relationCountType']) }}
+     * {{ '@param' }}   {{ $name }} ${{ camel_case($name) }}
+     * {{ '@return' }}  \League\Fractal\Resource\{{ ucfirst($relationship['relationCountType']) }}
      */
     public function include{{ ucfirst($relationship['method']) }}({{ $name }} ${{ camel_case($name) }})
     {

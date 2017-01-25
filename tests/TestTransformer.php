@@ -19,7 +19,7 @@ class TestTransformer extends Fractal\TransformerAbstract
     /**
      * Transform TestModel
      *
-     * @param    TestModel $testModel
+     * @param   TestModel $testModel
      * @return  array
      */
     public function transform(TestModel $testModel)
@@ -34,7 +34,7 @@ class TestTransformer extends Fractal\TransformerAbstract
     /**
      * Include HasManySomethings
      *
-     * @param  TestModel $testModel
+     * @param   TestModel $testModel
      * @return  \League\Fractal\Resource\Collection
      */
     public function includeHasManySomethings(TestModel $testModel)
