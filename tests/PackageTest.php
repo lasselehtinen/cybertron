@@ -157,6 +157,6 @@ class PackageTest extends TestCase
         $this->assertFileExists($filePath);
 
         // Check that the contents matches the expected result
-        $this->assertEquals(md5_file(__DIR__ . '/GeneratedTransformer.php'), md5_file($filePath));
+        $this->assertEquals(md5_file(__DIR__ . '/TestTransformer.php'), md5_file($filePath));
     }
 }
